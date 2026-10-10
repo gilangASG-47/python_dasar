@@ -1,4 +1,4 @@
-# --- bagian dari lat29 (supaya file ini bisa jalan sendiri) ---
+#  bagian dari lat29 (supaya file ini bisa jalan sendiri)
 import csv
 
 data = []
@@ -7,7 +7,7 @@ with open("nilai.csv") as f:
     for baris in reader:
         baris["nilai"] = int(baris["nilai"])
         data.append(baris)
-# --- kode slide ---
+
 
 rekap = {}
 for d in data:

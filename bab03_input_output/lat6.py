@@ -1,5 +1,5 @@
-nama = input("Siapa namamu? ")
-umur = int(input("Berapa umurmu? "))
+nama = input("Gilang? ")
+umur = int(input("20? "))
 
 tahun_depan = umur + 1
 print(f"Halo {nama}!")
